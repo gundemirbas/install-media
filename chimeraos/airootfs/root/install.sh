@@ -58,7 +58,7 @@ if [ "${CHOICE}" == "local" ]; then
     frzr-deploy
     RESULT=$?
 else
-    frzr-deploy chimeraos/chimeraos:stable
+    frzr-deploy gundemirbas/chimeraos:unstable
     RESULT=$?
 fi
 
